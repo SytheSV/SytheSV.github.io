@@ -1,0 +1,70 @@
+/*General Styling*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, serif;
+}
+:root{
+    --background-color: #0c1111;
+    --alt-color: rgb(226,226,226);
+    --border-color: rgb(255,255,255,0.2);
+}
+
+body{
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,a,p,i{
+    color: var(--alt-color);
+}
+/*End General Styling*/
+
+/*Nav-bar Styling*/
+
+nav{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--background-color);
+}
+nav > .nav-section{
+    padding: 3rem 2rem;
+    display: flex;
+    gap: 1rem;
+    border-left: 1px solid var(--border-color);
+    align-items: center;
+    justify-content: center;
+}
+#nav-logo-section,
+#nav-links-section{
+    flex-basis: calc(100% / 3);
+}
+#nav-socials-section,
+#nav-contact-section{
+    flex-grow: 1;
+}
+#nav-logo-section{
+    justify-content: flex-start;
+    border-left: none;
+}
+#nav-links-section{
+    gap: 6rem;
+}
+#nav-socials-section{
+    gap: 3rem;
+}
+nav i{
+    font-size: 24px;
+}
+nav img{
+    aspect-ratio: 1;
+    width: 75px;
+}
+/*End Nav-bar Styling*/
