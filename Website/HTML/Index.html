@@ -5,19 +5,18 @@
     <meta charset="UTF-8">
     <title>SyeSV</title>
     <link rel="stylesheet" href="../CSS/Index.css">
-        <link rel="stylesheet" href="../CSS/MediaQueries.css">
+    <link rel="stylesheet" href="../CSS/MediaQueries.css">
     <link rel="stylesheet" href="../CSS/Hamburger.css">
     <script src="https://kit.fontawesome.com/8ba992a399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav>
+<nav class="nav-wide-screen">
     <div class="nav-section" id="nav-logo-section">
         <a href="#"><img src="/Assets/AvatarLogo.png" alt="Logo SyeSV"></a>
     </div>
     <div class="nav-section" id="nav-links-section">
         <a href="#"><h2>Home</h2></a>
         <a href="#"><h2>About</h2></a>
-<!--        Href to ID-->
     </div>
     <div class="nav-section" id="nav-socials-section">
         <a href="https://www.youtube.com/channel/UCpX2hyGzNvRHoIuBT-RCKzA" target="_blank">
@@ -30,12 +29,34 @@
     <div class="nav-section" id="nav-contact-section">
         <a href="#"><h2>GET IN TOUCH</h2></a>
     </div>
-    <div class="nav-section" id="nav-hamburger-section">
+</nav>
+
+<nav class="nav-small-screen">
+    <div class="nav-order" id="nav-top-bar">
+        <a href="#"><img src="/Assets/AvatarLogo.png" alt="Logo SyeSV"></a>
         <div class="menu-btn">
             <div class="menu-btn_burger"></div>
         </div>
     </div>
+    <div class="nav-order" id="nav-bottom-bar">
+        <div class="nav-section" id="nav-links-small-section">
+            <a href="#"><h2>Home</h2></a>
+            <a href="#"><h2>About</h2></a>
+        </div>
+        <div class="nav-section" id="nav-socials-small-section">
+            <a href="https://www.youtube.com/channel/UCpX2hyGzNvRHoIuBT-RCKzA" target="_blank">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://www.twitch.tv/syesv" target="_blank">
+                <i class="fa-brands fa-twitch"></i>
+            </a>
+        </div>
+        <div class="nav-section" id="nav-contact-small-section">
+            <a href="#"><h2>GET IN TOUCH</h2></a>
+        </div>
+    </div>
 </nav>
+
 
 <script src="../JS/Hamburger.js"></script>
 </body>

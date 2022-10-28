@@ -28,8 +28,8 @@ h1,h2,h3,a,p,i{
 
 /*Nav-bar Styling*/
 
-nav{
-    display: flex;
+.nav-wide-screen{
+    display: none;
     width: 100%;
     border-bottom: 1px solid var(--border-color);
     background-color: var(--background-color);
@@ -68,7 +68,7 @@ nav > .nav-section{
 #nav-socials-section,
 #nav-contact-section,
 #nav-links-section{
-    display: none;
+    display: flex;
 }
 nav i{
     font-size: 24px;
@@ -78,4 +78,45 @@ nav img{
     width: 75px;
 }
 
+.nav-small-screen{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav-small-screen #nav-top-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    align-items: center;
+}
+.nav-small-screen #nav-bottom-bar{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*gap: 3rem;*/
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+#nav-bottom-bar .nav-section{
+    display: flex;
+    padding-block: 2rem;
+    gap: 3rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    border-bottom: 1px solid var(--border-color);
+}
+#nav-bottom-bar #nav-contact-small-section{
+    border-bottom: none;
+}
+
+.nav-order{
+    border-bottom: 1px solid var(--border-color);
+}
 /*End Nav-bar Styling*/
