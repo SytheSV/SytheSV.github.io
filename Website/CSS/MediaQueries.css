@@ -3,6 +3,7 @@
     #nav-contact-section,
     #nav-links-section{
         display: flex;
+
     }
     #nav-hamburger-section{
         display: none;
