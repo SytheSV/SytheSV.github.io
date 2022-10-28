@@ -47,18 +47,28 @@ nav > .nav-section{
     flex-basis: calc(100% / 3);
 }
 #nav-socials-section,
-#nav-contact-section{
+#nav-contact-section,
+#nav-hamburger-section
+{
     flex-grow: 1;
 }
 #nav-logo-section{
     justify-content: flex-start;
     border-left: none;
 }
+#nav-hamburger-section{
+    justify-content: flex-end;
+}
 #nav-links-section{
     gap: 6rem;
 }
 #nav-socials-section{
     gap: 3rem;
+}
+#nav-socials-section,
+#nav-contact-section,
+#nav-links-section{
+    display: none;
 }
 nav i{
     font-size: 24px;
@@ -67,4 +77,5 @@ nav img{
     aspect-ratio: 1;
     width: 75px;
 }
+
 /*End Nav-bar Styling*/

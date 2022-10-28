@@ -1,3 +1,10 @@
-@media only screen and (min-width: 756px) {
-/* When the browser window is 756px wide or more*/
+@media only screen and (min-width: 900px) {
+    #nav-socials-section,
+    #nav-contact-section,
+    #nav-links-section{
+        display: flex;
+    }
+    #nav-hamburger-section{
+        display: none;
+    }
 }
