@@ -13,4 +13,3 @@ menuBtn.addEventListener('click',() =>{
     }
 });
 let navBottomBar = document.querySelector('#nav-bottom-bar');
-
