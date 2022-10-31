@@ -9,7 +9,8 @@
 :root{
     --background-color: #0c1111;
     --alt-color: rgb(226,226,226);
-    --border-color: rgb(255,255,255,0.2);
+    /*--border-color: rgb(255,255,255,0.2);*/
+    --border-color: #FFD700;
 }
 
 body{
@@ -27,7 +28,9 @@ h1,h2,h3,a,p,i{
 /*End General Styling*/
 
 /*Nav-bar Styling*/
-
+nav{
+    position: absolute;
+}
 .nav-wide-screen{
     display: none;
     width: 100%;
@@ -71,7 +74,7 @@ nav > .nav-section{
     display: flex;
 }
 nav i{
-    font-size: 24px;
+    font-size: 32px;
 }
 nav img{
     aspect-ratio: 1;
@@ -119,4 +122,36 @@ nav img{
 .nav-order{
     border-bottom: 1px solid var(--border-color);
 }
+nav a h2:hover,
+nav a i:hover{
+    color: var(--border-color);
+}
+.img-normal{
+    position: relative;
+}
+.img-hover{
+    position: absolute;
+}
+.img-normal:hover{
+    opacity: 0;
+}
 /*End Nav-bar Styling*/
+/*Main Styling*/
+
+.page-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+#first-page h1{
+    font-size: 10rem;
+}
+#first-page h1::first-letter{
+    color: var(--border-color);
+}
+
+/*End Main Styling*/
