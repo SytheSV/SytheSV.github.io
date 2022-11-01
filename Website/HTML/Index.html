@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/8ba992a399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="nav-wide-screen">
+<nav class="nav-wide-screen" id="nav">
     <div class="nav-section" id="nav-logo-section">
         <a href="#">
             <img class="img-hover" src="/Assets/AvatarLogoGold.png" alt="Logo SyeSV">
@@ -33,7 +33,7 @@
         <a href="#"><h2>GET IN TOUCH</h2></a>
     </div>
 </nav>
-<nav class="nav-small-screen">
+<nav class="nav-small-screen" id="nav">
     <div class="nav-order" id="nav-top-bar">
         <a href="#">
             <img class="img-hover" src="/Assets/AvatarLogoGold.png" alt="Logo SyeSV">
@@ -61,18 +61,23 @@
         </div>
     </div>
 </nav>
+
 <main class="mainContent">
     <div class="page-section" id="first-page">
-        <h1 class="glow">SyeSV</h1>
+        <h1>SyeSV</h1>
     </div>
     <div class="page-section" id="second-page">
 
     </div>
-    <div class="page-section" id="third-page">
-
-    </div>
 </main>
-
+<div class="sidebar">
+    <a href="#first-page">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <a href="#second-page">
+        <i class="fa-solid fa-arrow-down"></i>
+    </a>
+</div>
 <script src="../JS/Hamburger.js"></script>
 </body>
 </html>

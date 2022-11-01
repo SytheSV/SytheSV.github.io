@@ -1,43 +1,54 @@
 /*General Styling*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Poppins, serif;
 }
-:root{
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
     --background-color: #0c1111;
-    --alt-color: rgb(226,226,226);
+    --alt-color: rgb(226, 226, 226);
     /*--border-color: rgb(255,255,255,0.2);*/
     --border-color: #FFD700;
 }
 
-body{
+body {
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
-a{
+
+a {
     text-decoration: none;
 }
-h1,h2,h3,a,p,i{
+
+h1, h2, h3, a, p, i {
     color: var(--alt-color);
 }
+
 /*End General Styling*/
 
 /*Nav-bar Styling*/
-nav{
+nav {
     position: absolute;
 }
-.nav-wide-screen{
+
+.nav-wide-screen {
     display: none;
     width: 100%;
     border-bottom: 1px solid var(--border-color);
     background-color: var(--background-color);
 }
-nav > .nav-section{
+
+nav > .nav-section {
     padding: 3rem 2rem;
     display: flex;
     gap: 1rem;
@@ -45,50 +56,59 @@ nav > .nav-section{
     align-items: center;
     justify-content: center;
 }
+
 #nav-logo-section,
-#nav-links-section{
+#nav-links-section {
     flex-basis: calc(100% / 3);
 }
+
 #nav-socials-section,
 #nav-contact-section,
-#nav-hamburger-section
-{
+#nav-hamburger-section {
     flex-grow: 1;
 }
-#nav-logo-section{
+
+#nav-logo-section {
     justify-content: flex-start;
     border-left: none;
 }
-#nav-hamburger-section{
+
+#nav-hamburger-section {
     justify-content: flex-end;
 }
-#nav-links-section{
+
+#nav-links-section {
     gap: 6rem;
 }
-#nav-socials-section{
+
+#nav-socials-section {
     gap: 3rem;
 }
+
 #nav-socials-section,
 #nav-contact-section,
-#nav-links-section{
+#nav-links-section {
     display: flex;
 }
-nav i{
+
+nav i {
     font-size: 32px;
 }
-nav img{
+
+nav img {
     aspect-ratio: 1;
     width: 75px;
 }
 
-.nav-small-screen{
+.nav-small-screen {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.nav-small-screen #nav-top-bar{
+
+.nav-small-screen #nav-top-bar {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -96,7 +116,8 @@ nav img{
     padding: 3rem 2rem;
     align-items: center;
 }
-.nav-small-screen #nav-bottom-bar{
+
+.nav-small-screen #nav-bottom-bar {
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -105,7 +126,8 @@ nav img{
     width: 100%;
     transition: all 1s ease-in-out;
 }
-#nav-bottom-bar .nav-section{
+
+#nav-bottom-bar .nav-section {
     display: flex;
     padding-block: 2rem;
     gap: 3rem;
@@ -115,30 +137,60 @@ nav img{
     flex-grow: 1;
     border-bottom: 1px solid var(--border-color);
 }
-#nav-bottom-bar #nav-contact-small-section{
+
+#nav-bottom-bar #nav-contact-small-section {
     border-bottom: none;
 }
 
-.nav-order{
+.nav-order {
     border-bottom: 1px solid var(--border-color);
 }
+
 nav a h2:hover,
-nav a i:hover{
+nav a i:hover {
     color: var(--border-color);
 }
-.img-normal{
+
+.img-normal {
     position: relative;
 }
-.img-hover{
+
+.img-hover {
     position: absolute;
 }
-.img-normal:hover{
+
+.img-normal:hover {
     opacity: 0;
 }
-/*End Nav-bar Styling*/
-/*Main Styling*/
 
-.page-section{
+/*End Nav-bar Styling*/
+
+/*Sidebar Styling*/
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 2rem;
+    width: 2rem;
+    position: fixed;
+    top: 50%;
+    right: 2rem;
+    z-index: 10;
+    gap: 1rem;
+}
+
+.sidebar i {
+    font-size: 24px;
+    color: var(--alt-color);
+}
+.sidebar i:hover {
+    color: var(--border-color);
+}
+
+/*End Sidebar Styling*/
+
+/*Main Content Styling*/
+
+.page-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,11 +199,13 @@ nav a i:hover{
     padding: 2rem;
     border-bottom: 1px solid var(--border-color);
 }
-#first-page h1{
+
+#first-page h1 {
     font-size: 10rem;
 }
-#first-page h1::first-letter{
+
+#first-page h1::first-letter {
     color: var(--border-color);
 }
 
-/*End Main Styling*/
+/*End Main Content Styling*/
