@@ -172,7 +172,7 @@ nav a i:hover {
     height: 2rem;
     width: 2rem;
     position: fixed;
-    top: 50%;
+    top: 90%;
     right: 2rem;
     z-index: 10;
     gap: 1rem;
@@ -182,6 +182,7 @@ nav a i:hover {
     font-size: 24px;
     color: var(--alt-color);
 }
+
 .sidebar i:hover {
     color: var(--border-color);
 }
@@ -190,12 +191,13 @@ nav a i:hover {
 
 /*Main Content Styling*/
 
-.page-section {
+.page {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    /*width: 100%;*/
     padding: 2rem;
     border-bottom: 1px solid var(--border-color);
 }
@@ -206,6 +208,27 @@ nav a i:hover {
 
 #first-page h1::first-letter {
     color: var(--border-color);
+}
+
+#second-page {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding-inline: 5rem;
+    gap: 2rem;
+}
+
+.page-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.page-Title h1:first-letter {
+    color: var(--border-color);
+    font-size: 36px;
 }
 
 /*End Main Content Styling*/
