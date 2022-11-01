@@ -1,7 +1,4 @@
-# SyeSV-Website
-Github For Sye's Website
-
-
+--------------------------------------------------------------------------------------------------------------------
 
 -=-o=xX To Do List Xx=o-=-
 
@@ -18,7 +15,7 @@ Github For Sye's Website
 - Design a footer to end of the website.
 	=> Make it responsive.
 
-
+--------------------------------------------------------------------------------------------------------------------
 
 -=-o=xX Main Content Ideas Xx=o-=-
 
@@ -26,6 +23,7 @@ Universal:
 
 	- Sidebar with navigation arrows (move up or down a page)
 	- Dots showing how many "pages" there are left (like a carousel)
+	- Custom Background instead of a solid color (slight pattern of some sorts ?)
 
 First Page:
 
@@ -41,6 +39,14 @@ Third Page:
 	- Information about myself (age, hobbies, etc...)
 	- PC Specs
 
--=-o=xX End Xx=o-=-
+--------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
 
 
