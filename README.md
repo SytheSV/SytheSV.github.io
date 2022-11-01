@@ -32,10 +32,6 @@ First Page:
 
 Second Page:
 
-	- Embedded video (kind of a trailer video, the same one as my Twitch.tv and YoutTube.com trailer video)
-
-Third Page:
-
 	- Information about myself (age, hobbies, etc...)
 	- PC Specs
 
