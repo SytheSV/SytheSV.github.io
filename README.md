@@ -1,7 +1,9 @@
 # SyeSV-Website
 Github For Sye's Website
 
-TO-DO List:
+
+
+-=-o=xX To Do List Xx=o-=-
 
 - Implement a full page scrolling effect for wide screens.
 	=> If the screen is less than 900px fix the way the scrolling behaves.
@@ -15,3 +17,30 @@ TO-DO List:
 
 - Design a footer to end of the website.
 	=> Make it responsive.
+
+
+
+-=-o=xX Main Content Ideas Xx=o-=-
+
+Universal:
+
+	- Sidebar with navigation arrows (move up or down a page)
+	- Dots showing how many "pages" there are left (like a carousel)
+
+First Page:
+
+	- Name + Slogan ?
+	- Add a nice Call To Action "CTA" button that invites the visitor to scroll through the website
+
+Second Page:
+
+	- Embedded video (kind of a trailer video, the same one as my Twitch.tv and YoutTube.com trailer video)
+
+Third Page:
+
+	- Information about myself (age, hobbies, etc...)
+	- PC Specs
+
+-=-o=xX End Xx=o-=-
+
+
